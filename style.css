@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    background: url(./Images/riverside\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 5px #fc7f03 solid;
+}
+
+nav{
+    width: 100%;
+    display: inline-block;
+    padding: 30px 60px;
+}
+
+label.logo{
+    color: whitesmoke;
+    padding: 0 100px;
+    font-weight: 700;
+    font-size: 3vmin;
+    line-height: 80px;
+}
+
+
+
+span{
+    color: #fc7f03;
+}
+
+
+ul{
+    float: right;
+    /* padding-right: 60px; */
+}
+
+ul li{
+    list-style: none;
+    line-height: 80px;
+    display: inline-block;
+}
+
+ul li .hom{
+    color: #fc7f03;
+    font-weight: 700;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 10px;
+    font-weight: 700;
+}
+
+
+
+ul li a:hover{
+    color: #fc036b;
+}
+
+
+
+.checkbtn{
+    font-size: 30px;
+    color: whitesmoke;
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+#check{
+    display: none;
+}
+
+
+
+.main{
+margin-top: 200px;
+text-align: center;
+}
+
+
+
+.main h1{
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+
+.main p{
+    color: whitesmoke;
+    font-size: 3vmin;
+    background-color: #fc036b;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.main h4{
+    color: whitesmoke;
+    font-size: 3vmin;
+}
+
+.main .butt{
+    padding: 10px 15px;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    color: #fc036b;
+}
+
+.newsletter{
+    padding-top: 50px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    /* margin-top: 60px; */
+}
+
+
+.newsletter .ema{
+    background-color: transparent #fc7f03;
+    width: 350px;
+    padding: 5px 15px;
+    border: 3px;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+}
+
+
+.newsletter .ema::placeholder{
+    color: #fc7f03;
+}
+
+.newsletter .sub{
+    color: #fc7f03;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: bold;
+}
+
+.newsletter h3{
+    margin-right: 30px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+
+
+.sub-section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.sub-section h1{
+    margin-bottom: 20px;
+    color: darkred;
+}
+.section{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+
+.sub-section .learn{
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: #fc036b;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.section img{
+    width: 80%;
+}
+
+.section .france-image{
+    width: 410px;
+
+}
+
+
+.section .germany-image{
+    width: 410px;
+}
+
+.section .dubai-image{
+    width: 410px;
+}
+
+
+.pack{
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.pack h1{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.packages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 90px;
+    column-gap: 10px;
+}
+
+.packages .dubai-package img{
+    width: 400px;
+}
+
+
+.packages .europe-package img{
+    width: 400px;
+}
+
+.packages .hajj-package img {
+    width: 400px;
+}
+
+.second{
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    margin: 100px 250px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.second .turkey-package img{
+    width: 400px;
+}
+
+
+
+.second .visa-rate img{
+    width: 400px;
+}
+
+
+
+.btn{
+    color: black;
+    background-color: #fc036b;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+.we {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 120px;
+    padding: 50px;
+    column-gap: 20px;
+    text-align: left;
+    background-color: whitesmoke;
+    border-top: 3px black solid;
+    border-bottom: 3px #fc7f03 solid;
+}
+
+
+.we h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: darkred;
+}
+
+
+.we .us {
+    margin-top: 60px;
+}
+
+.we .hour {
+    margin-top: 100px;
+}
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 80px;
+    align-content: center;
+}
+
+
+
+.nav-menu{
+    font-size: 40px;
+    margin-right: 30px;
+    color: whitesmoke;
+}
+
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+        .section {
+            display: inline-block;
+    
+        }
+    
+    
+    
+    
+        .section .france-image {
+            display: inline-block;
+            width: 100%;
+            padding: 0px 8px;
+    
+        }
+    
+    
+        .section .france-image .learn {
+            margin-bottom: 70px;
+        }
+    
+    
+        .section .germany-image {
+            display: inline-block;
+            width: 100%;
+            padding: 0px 8px;
+        }
+    
+    
+        .learn {
+            margin-bottom: 70px;
+        }
+    
+        .section .dubai-image {
+            display: inline-block;
+            width: 100%;
+            padding: 0px 8px;
+        }
+        
+        .we {
+            margin-top: 0;
+            display: inline-block;
+            align-content: center;
+            text-align: center;
+            width: 100%;
+        }
+    
+    
+        .we .vision {
+            margin-bottom: 60px;
+        }
+    
+        .we .mission {
+            margin-bottom: 60px;
+        }
+
+        
+}
+
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(179, 177, 177);
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    a:hover,a.active{
+        color: #fc036b;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .main{
+        margin-top: 100px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .main p{
+        font-size: 2.5vmin;
+    }
+
+
+
+    .section{
+        display: inline-block;
+        margin: 0;
+
+    }
+
+
+
+
+    .section .france-image{
+        display: inline-block;
+        width: 100%;
+        
+    }
+
+
+        .section .france-image .learn{
+            margin-bottom: 70px;
+        }
+
+
+    .section .germany-image{
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .learn{
+        margin-bottom: 70px;
+        }
+
+    .section .dubai-image{
+    display: inline-block;
+    width:100%;
+    }
+
+.section .dubai-image button{
+margin-bottom: 0;
+        }
+
+.we{
+    margin: 0;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+
+.we .vision{
+    margin-bottom: 60px;
+}
+
+.we .mission{
+margin-bottom: 60px;
+}
+
+.pack{
+    display: inline-block;
+}
+
+.packages{
+    display: inline-block;
+    margin: 0;
+}
+
+
+.second{
+    display: inline-block;
+    margin: 0;
+}
+
+footer{
+    height: 500px;
+    
+}
+
+
+.footer-container{
+display: inline-block;
+}
+}
+
